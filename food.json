@@ -1,0 +1,26 @@
+{
+	"fooditem":[
+		{
+		"name" : "burger",
+		"ingredients" : [{
+			"ing1" : "beef patty",
+			"loc1" : "NTUC",
+			"price1" : "$2.00"},
+			{"ing2" : "lettuce",
+			"loc2" : "Cold Storage",
+			"price2" : "$1.00",
+			}]
+		},
+		{
+		"name" : "fishball noodle",
+		"ingredients" : [{
+			"ing1" : "fishball",
+			"loc1" : "Market",
+			"price1" : "$2.50"},
+			{"ing2" : "noodle",
+			"loc2" : "Sheng Shiong",
+			"price2" : "$1.20",
+			}]
+		}
+	]
+}
