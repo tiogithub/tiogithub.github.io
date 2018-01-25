@@ -11,7 +11,7 @@ $("#findbtn").click(function(){
 function searchFood(){		
 	
 	foodsearch = $("#foodfind").val();
-	$("#foodfind").value="";
+	$("#foodfind").val("");
 	$(".ingtable").remove();
 	$("#foodtable").append("<tbody class='ingtable'></tbody>");
 	for(i=0;i<ingArray.length;i++){
