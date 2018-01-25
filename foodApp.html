@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Food App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/foodArray.js"></script>
+</head>
+
+<body>
+<div class="mainpage" data-role="page">
+	<div class="profile-head">
+		<h1><br></br>What's cookin'</h1>
+        
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	<form>
+			<fieldset data-role="ui-field-contain"> 
+				<label for="item">What do you want to cook?</label>
+				<input type="text"id="foodfind">
+			</fieldset>
+
+	<button id="findbtn">Search</button>
+
+	</form>
+			
+	   <table data-role="table" id="foodtable" class="ui-responsive table-stroke">
+	              <thead>
+	                <tr>
+						<th data-priority="1">No</th>
+						<th>Ingredient</th>
+						<th data-priority="3">Location</th>
+						<th>Price</th>
+	                </tr>
+	              </thead>
+	              <tbody class="ingtable">	                     
+	              </tbody>
+	            </table>
+    </div>
+           
+	<div data-role="footer" data-position="fixed">
+		<h4>Let's eatin'</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
