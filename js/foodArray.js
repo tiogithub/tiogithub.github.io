@@ -11,7 +11,7 @@ $("#findbtn").click(function(){
 function searchFood(){		
 	
 	foodsearch = $("#foodfind").val();
-	$("#foodfind").value="";
+	
 	$(".ingtable").remove();
 	$("#foodtable").append("<tbody class='ingtable'></tbody>");
 	for(i=0;i<ingArray.length;i++){
@@ -24,7 +24,7 @@ function searchFood(){
 	}
 	//$(".tasktable").append("<tr id="+index+"+><th>"+(index+1)+"</th><td>"+taskArray[index].name+"</td><td>"+taskArray[index].price+"</td><td><input type='checkbox' name='checkbox-0 ' ></td></tr>");		
 
-	}
+}
 /*
 	$("#findbtn").click(function() {
 	 		console.log(this.id);
